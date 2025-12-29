@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
-# This name MUST match what main.py is looking for
-base_router = APIRouter() 
+# THIS MUST BE NAMED base_router
+base_router = APIRouter()
 
 @base_router.get("/")
 async def welcome():
